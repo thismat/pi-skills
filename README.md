@@ -73,14 +73,6 @@ description: Package a project into a tarball for distribution. Use when the use
 ```bash
 npm install
 ```
-
-## Usage
-
-Create a tarball from the current project:
-
-```bash
-./scripts/package.sh
-```
 ```
 
 Key points:
