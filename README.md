@@ -51,29 +51,42 @@ Or add to your Pi settings:
 
 ## Skill Structure
 
-Every skill follows this format:
+Every skill is a directory with a single `SKILLS.md` file. Example:
 
-**`SKILLS.md`:**
+```
+example-packager/
+└── SKILLS.md
+```
+
+**`example-packager/SKILLS.md`:**
 
 ```markdown
 ---
-name: my-skill
-description: What this skill does and when to use it. Be specific.
+name: example-packager
+description: Package a project into a tarball for distribution. Use when the user asks to bundle or ship the project.
 ---
 
-# My Skill
+# Example Packager
 
 ## Setup
-...one-time setup instructions...
+
+```bash
+npm install
+```
+
 ## Usage
-...how to invoke the skill...
+
+Create a tarball from the current project:
+
+```bash
+./scripts/package.sh
+```
 ```
 
 Key points:
 
 - **`name`**: Lowercase letters, numbers, and hyphens only. Max 64 chars.
-- **`description`**: Be specific — this determines when Pi loads the skill. Max 1024 chars.
-- Setup instructions run once before first use.
+- **`description`**: Be specific — this determines when Pi loads the skill. Max 1024 chars. The more precise, the better Pi's automatic skill selection works.
 
 ## Skills
 

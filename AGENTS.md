@@ -19,25 +19,34 @@ skill-name/
 
 The `SKILLS.md` file is self-documenting — it tells Pi what to do.
 
-### SKILLS.md Format
+### SKILLS.md Example
 
 ```markdown
 ---
-name: skill-name
-description: What this skill does and when to use it. Be specific.
+name: example-packager
+description: Package a project into a tarball for distribution. Use when the user asks to bundle or ship the project.
 ---
 
-# Skill Name
+# Example Packager
 
 ## Setup
-...one-time setup instructions...
+
+```bash
+npm install
+```
+
 ## Usage
-...how to invoke the skill...
+
+Create a tarball from the current project:
+
+```bash
+./scripts/package.sh
+```
 ```
 
 Frontmatter rules:
 - `name`: lowercase a-z, 0-9, hyphens only, 1-64 chars, no leading/trailing hyphens
-- `description`: max 1024 chars, be specific about when to use
+- `description`: max 1024 chars, be specific about when to use. The more precise, the better Pi's automatic skill selection works
 
 ### Git
 
