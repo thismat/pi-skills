@@ -1,0 +1,9 @@
+{
+	"name": "kagi-search",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "Web search via Kagi API",
+	"author": "",
+	"license": "MIT",
+	"dependencies": {}
+}

@@ -85,5 +85,5 @@ Key points:
 
 | Skill | Description |
 |-------|-------------|
-| _(add your skills here)_ | |
+| [kagi-search](kagi-search/SKILL.md) | Web search via Kagi API. Use when the user asks to search the web, look something up, find documentation, or any general web search request. |
 
