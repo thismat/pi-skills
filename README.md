@@ -132,7 +132,6 @@ Edit `my-new-skill/SKILL.md` with your name, description, and instructions. Add 
 
 - **TypeScript** for all helper scripts that aren't trivial shell commands
 - **ESM modules** throughout (`import`/`export`)
-- **Zod schemas** or **TypeBox** for parameter validation in custom tools/extensions
 - **Error handling**: scripts should exit non-zero and print user-friendly errors
 - **Docs**: each skill's `SKILL.md` is the primary documentation; use `references/` for deep technical details
 
