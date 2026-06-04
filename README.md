@@ -69,10 +69,11 @@ description: Package a project into a tarball for distribution. Use when the use
 # Example Packager
 
 ## Setup
+Setup instructions
 
-```bash
-npm install
-```
+
+## When to Use
+- Bullet points of when to use the task
 ```
 
 Key points:
@@ -86,6 +87,3 @@ Key points:
 |-------|-------------|
 | _(add your skills here)_ | |
 
-## License
-
-MIT
